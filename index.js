@@ -137,5 +137,10 @@ const navbar = (
         </ul>
     </nav>
     )
+// Written on a single line
+//ReactDOM.createRoot(document.getElementById("root")).render(navbar)
 
-ReactDOM.createRoot(document.getElementById("root")).render(navbar)
+// Can also be written on two lines.
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(navbar)
+

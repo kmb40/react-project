@@ -13,6 +13,7 @@ ReactDOM.render(
 */
 
 //Lesson - Functions
+/*  
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -63,3 +64,33 @@ ReactDOM.render(
         <MainContent />
     </div>, 
     document.getElementById("root"))
+    */
+
+// Challenge - Imperative 
+/*
+const h1 = document.createElement("h1")
+h1.textContent = "This is an imperative way to program"
+h1.className = "header"
+document.getElementById("root").append(h1)
+*/
+
+//Lesson JSX with Two Parent Elements - Wrong
+//ReactDOM.render(<h1>This is JSX</h1><p>second element</p>, document.getElementById("root"))
+
+//Lesson JSX with One Parent Element - Correct
+/*
+ReactDOM.render(
+    <div>
+        <h1>This is JSX</h1>
+        <p>second element</p>
+    </div>, document.getElementById("root"))
+*/
+
+//Lesson JSX with One Parent Element in a variable "page"
+const page = (
+    <div>
+        <h1>This is JSX</h1>
+        <p>second element</p>
+    </div>
+)
+ReactDOM.render(page, document.getElementById("root"))

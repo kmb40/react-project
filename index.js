@@ -1,3 +1,4 @@
+//There are multiple lessons and challanges commented out with /*lesson here*/ in this page. Remove comments to display the code.
 
 // Lesson - Paragrpah with ordered and unordered list
 /*
@@ -87,6 +88,7 @@ ReactDOM.render(
 */
 
 //Lesson JSX with One Parent Element in a variable "page"
+/*
 const page = (
     <div>
         <h1>This is JSX</h1>
@@ -94,3 +96,25 @@ const page = (
     </div>
 )
 ReactDOM.render(page, document.getElementById("root"))
+*/
+
+// Challenge - NavBar
+
+const navbar = (
+    <nav>
+        <h1>Mayvik</h1>
+        <ul>
+        <li>
+            <a href="#">Pricing</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        </ul>
+    </nav>
+    )
+
+ReactDOM.render(navbar, document.getElementById("root"))

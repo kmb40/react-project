@@ -99,7 +99,7 @@ ReactDOM.render(page, document.getElementById("root"))
 */
 
 // Challenge - NavBar
-
+/*
 const navbar = (
     <nav>
         <h1>Mayvik</h1>
@@ -118,3 +118,24 @@ const navbar = (
     )
 
 ReactDOM.render(navbar, document.getElementById("root"))
+*/
+// Challenge - NavBar with React version 18
+
+const navbar = (
+    <nav>
+        <h1>Mayvik</h1>
+        <ul>
+        <li>
+            <a href="#">Pricing</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        </ul>
+    </nav>
+    )
+
+ReactDOM.createRoot(document.getElementById("root")).render(navbar)

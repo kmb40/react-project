@@ -120,7 +120,7 @@ const navbar = (
 ReactDOM.render(navbar, document.getElementById("root"))
 */
 // Challenge - NavBar with React version 18
-
+/*
 const navbar = (
     <nav>
         <h1>Mayvik</h1>
@@ -137,10 +137,33 @@ const navbar = (
         </ul>
     </nav>
     )
+*/
 // Written on a single line
 //ReactDOM.createRoot(document.getElementById("root")).render(navbar)
 
 // Can also be written on two lines.
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(navbar)
+//const root = ReactDOM.createRoot(document.getElementById("root"))
+//root.render(navbar)
 
+// Reverting back to version 17
+// Challenge - Reverted back to React version 17 - Write a single back using a variable and the append feature. 
+// The lesson was reverted from "append" which failed to produce the required result.
+
+const samplePage = (
+    <div>
+        <h1>Mayvik</h1>
+        <ul>
+        <li>
+            <a href="#">Pricing</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        </ul>
+    </div>
+    )
+// Written on a single line
+ReactDOM.render(samplePage, document.getElementById("root"))

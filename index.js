@@ -148,7 +148,7 @@ const navbar = (
 // Reverting back to version 17
 // Challenge - Reverted back to React version 17 - Write a single back using a variable and the append feature. 
 // The lesson was reverted from "append" which failed to produce the required result.
-
+/*
 const samplePage = (
     <div>
         <h1>Mayvik</h1>
@@ -167,3 +167,22 @@ const samplePage = (
     )
 // Written on a single line
 ReactDOM.render(samplePage, document.getElementById("root"))
+*/
+
+// Challenge Project Part 1
+const projectPage = (
+    <div>
+        <img src="react-logo.png" width="40px"/>
+        <br /><br />
+        <h1>Funs facts about React</h1>
+        <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on GitHub</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+    </div>
+    )
+// Written on a single line
+ReactDOM.render(projectPage, document.getElementById("root"))

@@ -1,3 +1,3 @@
 # react-project
 
-Learning ReactJS
+Research and development with ReactJS

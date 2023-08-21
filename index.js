@@ -259,29 +259,10 @@ function WhyIlearnPage(){
     // Written on a single line
     ReactDOM.render(<WhyIlearnPage />, document.getElementById("root"))
 */
-// Lesson Parent / Child Components
-function Header(){
-    return (
-        <header>
-             <nav className="nav">
-                <img className="nav-logo" src="react-logo.png" />
-                  <ul className="nav-items">
-                    <li>
-                        <a href="#">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                  </ul>
-             </nav>
-        </header>
-    )
-}
 
-function PageBody(){
+import Header from "./header"
+
+function PageBody() {
     return(
         <div>
             <h1>Reasons that I am learning REACTjs</h1>

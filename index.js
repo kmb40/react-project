@@ -230,6 +230,7 @@ return (
 // Written on a single line
 ReactDOM.render(<WhyIlearnPage />, document.getElementById("root"))
 */
+/*
 // Challenge Part 2 Custom ol
 function WhyIlearnPage(){
     return (
@@ -252,6 +253,66 @@ function WhyIlearnPage(){
             </li>
             </ol>
             <footer><small>© 2023 Brown development. All rights reserved.</small></footer>
+        </div>
+        )       
+    }
+    // Written on a single line
+    ReactDOM.render(<WhyIlearnPage />, document.getElementById("root"))
+*/
+// Lesson Parent / Child Components
+function Header(){
+    return (
+        <header>
+             <nav className="nav">
+                <img className="nav-logo" src="react-logo.png" />
+                  <ul className="nav-items">
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                  </ul>
+             </nav>
+        </header>
+    )
+}
+
+function PageBody(){
+    return(
+        <div>
+            <h1>Reasons that I am learning REACTjs</h1>
+                <ol>
+                    <li>
+                        <a href="#">I love to learn.</a>
+                    </li>
+                    <li>
+                        <a href="#">To keep programming skills from going into cold storage.</a>
+                    </li>
+                    <li>
+                        <a href="#">To build on existing programming skills.</a>
+                    </li>
+                </ol>
+        </div>
+    )
+}
+
+
+function Footer(){
+    return(
+        <footer><small>© 2023 Brown development. All rights reserved.</small></footer>
+    )
+}
+
+function WhyIlearnPage(){
+    return (
+        <div>
+            <Header/>
+            <PageBody/>
+            <Footer />
         </div>
         )       
     }

@@ -259,7 +259,8 @@ function WhyIlearnPage(){
     // Written on a single line
     ReactDOM.render(<WhyIlearnPage />, document.getElementById("root"))
 */
-
+import React from "react"
+import ReactDOM from "react-dom"
 import Header from "./header"
 
 function PageBody() {

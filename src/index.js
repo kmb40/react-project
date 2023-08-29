@@ -23,26 +23,8 @@ import React from "react"
 import ReactDOM from "react-dom"
 import './index.css'
 import Header from "./header"
+import PageBody from "./pagebody"
 import Footer from "./footer"
-
-function PageBody() {
-    return(
-        <div>
-            <h1>Reasons that I am learning REACTjs</h1>
-                <ol>
-                    <li>
-                        <a href="#">I love to learn.</a>
-                    </li>
-                    <li>
-                        <a href="#">To keep programming skills from going into cold storage.</a>
-                    </li>
-                    <li>
-                        <a href="#">To build on existing programming skills.</a>
-                    </li>
-                </ol>
-        </div>
-    )
-}
 
 
 function WhyIlearnPage(){

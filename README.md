@@ -1,3 +1,7 @@
+# react-project
+
+The purpose of this repo is research and development with ReactJS. All else that follows was committed as standard result of using ‘npx create-react-app my-app’ command and isnt a required read.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,6 +72,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-project
-
-Research and development with ReactJS

@@ -23,7 +23,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import './index.css'
 import Header from "./header"
-import PageBody from "./pagebody"
+import PageBody from "./pageBody"
 import Footer from "./footer"
 
 

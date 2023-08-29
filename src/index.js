@@ -21,6 +21,7 @@ reportWebVitals();
 import React from "react"
 import ReactDOM from "react-dom"
 import Header from "./header"
+import Footer from "./footer"
 
 function PageBody() {
     return(
@@ -41,12 +42,6 @@ function PageBody() {
     )
 }
 
-
-function Footer(){
-    return(
-        <footer><small>© 2023 Brown development. All rights reserved.</small></footer>
-    )
-}
 
 function WhyIlearnPage(){
     return (

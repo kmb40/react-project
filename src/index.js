@@ -1,4 +1,5 @@
-/*
+/* This are default files provided by react create-app function
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

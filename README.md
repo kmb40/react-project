@@ -38,7 +38,7 @@ These are the tools used to conduct this research and development.
 
 ## Alternative project creation with Vite
 1. Follow the above instructions for [Install Node.js and NPM (Node Package Manager)](#create-the-react-app-see-the-alternative-installation-with-vite-for-a-faster-installation).    
-2. To install Vite, use 'npm create@latest' at the command line.   
+2. To install Vite, use 'npm create vite@latest' at the command line.   
 3. Select "React" --> "Javascript + SWC" (SWC is also a transpiler for JavaScript, it is written in Rust and is much faster than Babel.)   
 4. The installation should be completed in seconds.   
 5. Make sure that you are in the project directory then run 'npm install', then 'npm run dev'.   

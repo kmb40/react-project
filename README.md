@@ -1,7 +1,7 @@
 # React-Project
 
 # Objective    
-The purpose of this repo is research and development with ReactJS. 
+The purpose of this repo is research and development with ReactJS. TEST commit
 
 # Environement and Preparation used for this event   
 These are the tools used to conduct this research and development. 

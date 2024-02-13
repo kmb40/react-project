@@ -17,7 +17,18 @@ These are the tools used to conduct this research and development.
 
 # Setup
 ## Install Node.js and NPM (Node Package Manager)
-1. To install Node.js and NPM which are required for React, visit - https://nodejs.org/en/download and follow the instructions for using the .pkg file in your Downloads folder to run the installer.   
+1. To install Node.js and NPM which are required for React, visit - https://nodejs.org/en/download and follow the instructions for using the .pkg file in your Downloads folder to run the installer.
+
+# Building locally then migrating to a production cloud server
+## 
+1. Create a React App in VSCode using the command `npx create-react-app my-app`. Where `my-app` can be any name that you like.
+2. Add `"homepage": "."` to the package.json file.
+3. Run `npm run build`.
+4. A `build` folder should be created.
+5. Compress the `build` folder and upload it to your web host using FTP or a file manager.
+6. Decompress the `build` folder in the directory that you want to use for hosting that app.
+7. Visit the directory and you should see a working site similar to what you witnessed in your development environment.
+8. Note: If you receive a blank page after uploading content to your host, be sure that the `"homepage": "."` is referenced inside of the package.json file - Ref: https://stackoverflow.com/questions/55568697/blank-page-after-running-build-on-create-react-app 
 
 ## Verify Node and NPM are installed
 1. Confirm installation with ‘node -v’ and ‘npm -v at the command line.   
